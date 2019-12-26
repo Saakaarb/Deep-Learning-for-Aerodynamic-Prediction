@@ -1,7 +1,7 @@
 # Deep-Learning-for-Aerodynamic-Prediction
 This repository contains scripts used to create and train a deep neural network that replicates a CFD solver for aerodynamic prediction over airfoils. The training data is prepared using a RANS (Reynolds-Averaged Navier-Stokes) solver. The hyperparameters were tuned using a grid search of reasonable values. **The current code is provided and intended as a sample and is not the final version**, which includes loss-function modification and multiple approaches to the deconvolution step.
 
-![Screenshot1](.png)
+![Screenshot1](u_velocity_turns.jpg)
 
 ## Citing this work
 
