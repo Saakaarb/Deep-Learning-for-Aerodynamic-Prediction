@@ -3,8 +3,8 @@ This repository contains code used to create and train a deep neural network tha
 
 ## Files:
 
--Front_end.py
--back_end.py
+- Front_end.py
+- back_end.py
 -
 
 
