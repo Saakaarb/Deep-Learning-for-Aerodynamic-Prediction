@@ -24,7 +24,7 @@ The network is trained on 252 datapoints, containing 3 different shapes, 20 diff
 
 - Front_end.py: All major training parameters are modified in this file
 - back_end.py: Major functions including those to build and train network based on specified hyper-parameters are included in this function
-- The MATLAB files used in data preparation have not been hosted on the Git, and can be obtained on request.
+- The MATLAB files used in data preparation have not been hosted on the Git.
 - Data Files(Y):
   - [Output_rho.mat](https://drive.google.com/open?id=1_ctNRiNIIOxGYjDWpLvvXlIOqymNlkOG): Grid-density values for each of the training/validation set points.Set contains 252 points.
   - [Output_u.mat](https://drive.google.com/open?id=1Znny0Xcxh1U5mjomwoDUI2EWo9Bf_miY): Grid-X velocity values for each of the training/validation set points.Set contains 252 points.
