@@ -23,6 +23,15 @@ The neural network is constructed as a deep neural network, which effectively ma
 The network is trained on 252 datapoints, containing 3 different shapes, 20 different angles of attack and 4 different flow reynolds numbers. The preprocessed training data was obtained using [TURNS](https://arc.aiaa.org/doi/abs/10.2514/3.49036), a RANS solver which uses the [SA](https://turbmodels.larc.nasa.gov/spalart.html) turbulence model. Data from TURNS is processed using a series of MATLAB scripts, an the final training data is available at the links in the README. The training data flow fields are normalized before training begins to speed up convergence. The set is randomized in order, and then training is done with a specified batch size. A certain fraction of the set is removed from the training process in order to evaluate validation error. We introduce nonlinearity into the system by using a [Swish](https://www.machinecurve.com/index.php/2019/05/30/why-swish-could-perform-better-than-relu/) activation function. Further details can be found [here](https://link.springer.com/article/10.1007%2Fs00466-019-01740-0).
 
 ![Screenshot2](network.png)
+**Depiction of the deep neural network created**
+
+![Screenshot3](result_ex.png)
+**Visualization of a result from validation set and comparison to true flow. Note this result is from a more enhanced network which includes gradient loss penalty in it's loss function**
+
+## Results
+
+Detail of all results obtained can be found [here](https://link.springer.com/article/10.1007%2Fs00466-019-01740-0).
+
 
 ## Files:
 
