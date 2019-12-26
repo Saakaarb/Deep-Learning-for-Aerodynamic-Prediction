@@ -1,6 +1,12 @@
 # Deep-Learning-for-Aerodynamic-Prediction
 This repository contains scripts used to create and train a deep neural network that replicates a CFD solver for aerodynamic prediction over airfoils. The training data is prepared using a RANS (Reynolds-Averaged Navier-Stokes) solver. The hyperparameters were tuned using a grid search of reasonable values. The current code is provided and intended as a sample and is not the final version, which includes loss-function modification and multiple approaches to the deconvolution step.
 
+## Citing this work
+
+If you use this, please cite the following paper:
+
+* Bhatnagar, Afshar, Pan, Duraisamy, Kaushik : _Prediction of aerodynamic flow fields using convolutional neural networks_ (Computational Mechanics, 2019) https://link.springer.com/article/10.1007%2Fs00466-019-01740-0
+
 ## Introduction
 
 CFD solvers play an important role today in development and design of products, particularly in mechanical and aerospace engineering. One of the biggest issues with performing high-fidelity simulations is the time to result of such simulations, along with the computational cost of performing the simulation. This project is the foundation of an ambitious project undertaken at the [CASLab](https://caslab.engin.umich.edu/) , University of Michigan to use deep neural networks to predict aerodynamic flow fields around complex vehicle geometries in near-real time as geometry shape is varied. The hypothesis is that the use of a trained neural network enables this, with most of the computational time and effort going into training the network offline. The use of such a tool would drastically improve turnaround times in design and would expand the boundaries of shapes designers would be able to experiment with given current limitations of resources.
