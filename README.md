@@ -3,7 +3,7 @@ This repository contains scripts used to create and train a deep neural network 
 
 ![Screenshot1](u_velocity_TURNS.jpg)
 
-Aerodynamic flow field over an s814 airfoil.
+X-velocity contour plot over an s814 airfoil.
 
 ## Citing this work
 
