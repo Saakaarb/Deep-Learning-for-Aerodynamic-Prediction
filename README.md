@@ -44,12 +44,12 @@ Detail of all results obtained can be found [here](https://link.springer.com/art
 - The MATLAB files used in data preparation have not been hosted on the Git.
 - Data Files(Y):
   - [Output_rho.mat](https://drive.google.com/file/d/1bPqLVC_fmkfB4lIanIekq3SV48RSvWmX/view?usp=drive_link): Grid-density values for each of the training/validation set points.Set contains 252 points.
-  - [Output_u.mat](https://drive.google.com/open?id=1Znny0Xcxh1U5mjomwoDUI2EWo9Bf_miY): Grid-X velocity values for each of the training/validation set points.Set contains 252 points.
-  - [Output_v.mat](https://drive.google.com/open?id=1tAfEiq4hrIuMgebKjG3YYPn0qkBJ_Tzm): Grid-Y velocity values for each of the training/validation set points.Set contains 252 points.
-  - [Output_p.mat](https://drive.google.com/open?id=1A7Kh-lhZiJLA9_7HpMVd6isfkS_yh9pu): Grid-Pressure values for each of the training/validation set points.Set contains 252 points.
+  - [Output_u.mat](https://drive.google.com/file/d/156s1PrQF311TdQy3Cl0I4_sGPbauV7tD/view?usp=drive_link): Grid-X velocity values for each of the training/validation set points.Set contains 252 points.
+  - [Output_v.mat](https://drive.google.com/file/d/1F0bxZBQNBPClG2p63Vny_RvlIyf5ug7e/view?usp=drive_link): Grid-Y velocity values for each of the training/validation set points.Set contains 252 points.
+  - [Output_p.mat](https://drive.google.com/file/d/184J5y5AD4gkbPI0MLFPq3hBHHqoY7d1a/view?usp=drive_link): Grid-Pressure values for each of the training/validation set points.Set contains 252 points.
 - Data Files(X):
-  - [SDF_values.mat](https://drive.google.com/open?id=1HrJhrgdGvfDki4914WIpGZEHICP3u0oU): Grid signed distance function to pass shape of airfoil to network.
-  - [input_re_alpha.mat](https://drive.google.com/open?id=1bbLP0lx7TEIl4_-tAs3jo3UogmZPDdhc): Specifies flow variables in the form of reynolds number and angle of attack to the airfoil.
+  - [SDF_values.mat](https://drive.google.com/file/d/1HtBUgr-7Q5EX6j5nXaZ87ub-sRzunp3B/view?usp=drive_link): Grid signed distance function to pass shape of airfoil to network.
+  - [input_re_alpha.mat](https://drive.google.com/file/d/1SsMm4wl_scawJp4vqs6ao4Dm7tFTLQ3A/view?usp=drive_link): Specifies flow variables in the form of reynolds number and angle of attack to the airfoil.
   
 
 
