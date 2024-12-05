@@ -1,0 +1,9 @@
+channel_num,3,,,,,
+conv_1,300,5,5,swish_fn,N,5
+conv_2,300,5,5,swish_fn,N,3
+conv_3,300,3,3,swish_fn,N,2
+dense_1,10,swish_fn,0.2,,,
+Format :,,,,,,
+First Line: text, number of channel output,,,,,
+For Convolutional Layers: name of layer,number of filters/hidden units,filter size,kernel size,activation function,if you want MaxPooling2D,size(and stride) of maxpooling2D
+for FC Layers: Name,Number of hidden units,activation fn,validation split,,,

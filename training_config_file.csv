@@ -1,0 +1,2 @@
+1,3,N,0.000001,100
+format: Experiment Number, Number of channels in output,if early stopping is implemented,change required to prevent early stopping,epochs in which change mst occur
